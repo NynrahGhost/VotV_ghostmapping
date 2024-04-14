@@ -40,7 +40,7 @@ To use them, drag and drop Content folder to your mod project base, usually name
   <li>int_ttrigger</li>
  </details>
   <details>
- <summary>structs (All unsafe except struct_food1, struct_save and what it uses)</summary>
+ <summary>structs (From struct_achievement to struct_sound SHOULD BE safe to use)</summary>
   <li>enum_playlist</li>
   <li>struct_achievement</li>
   <li>struct_byteimage</li>
@@ -69,11 +69,15 @@ To use them, drag and drop Content folder to your mod project base, usually name
   <li>struct_physSound</li>
   <li>struct_prop</li>
   <li>struct_propDynamic</li>
+  <li>struct_propObject</li>
   <li>struct_save</li>
+  <li>struct_scientistSpecialResponse</li>
   <li>struct_settings</li>
-  <li>struct_signalDataDynamic</li>
-  <li>struct_signal_data</li>
+  <li>struct_shroom</li>
+  <li>struct_signal_data2</li>
   <li>struct_signal_spawn</li>
+  <li>struct_signalDataDynamic</li>
+  <li>struct_signalEmailResponse</li>
   <li>struct_sound</li>
   <li>struct_spaceObject</li>
   <li>struct_store</li>
