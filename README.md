@@ -1,65 +1,170 @@
-#Voices of the Void ghostmap project
-Some stuff can take considerable amount of time to remap, especially if assets depend on each other. To save your time, and possibly open you to more game mechanics you didn't know about, this project will be populated from time to time with new entries.<br/>
+# Voices of the Void recreation for ghostreferencing 
+Some stuff can take considerable amount of time to remap, especially if assets depend on each other. To save your time, and possibly open you to more game mechanics you didn't know about, this project will be populated from time to time with new entries.</li></li>
 To use them, drag and drop Content folder to your mod project base, usually named VotV. it should already contain Content folder and they should merge, and new assets will appear in your editor.
 
 
-## Files [WIP]
+## File tree [WIP]
 
-- main
- - datatables
-   - list_props
- - 
- <details>
- <summary> enums</summary>
-   - enum_action
-   - enum_difficulty
-   - enum_emailChars
-   - enum_freq
-   - enum_gamemode
-   - enum_interactionActions
-   - enum_notifyType
-   - enum_objectType
-   - enum_quality
-   - enum_shopCats
-   - enum_signalResponse
-   - enum_spawnmenuCats
-   </details>
- - interfaces
 <details>
-   - int_coms
-   - int_objects
-   - int_player
-   - int_save1
-   - int_ttrigger
-</details>
- - structs (All unsafe except struct_food1, struct_save and what it uses)
+ <summary>main</summary>
+<details><summary>datatables</summary>
+  <ul><li>list_props</li></ul>
+  </details>
  <details>
-   - struct_byteimage.uasset
-   - struct_customMesh.uasset
-   - struct_dangerProp.uasset
-   - struct_email.uasset
-   - struct_food1.uasset
-   - struct_keybind.uasset
-   - struct_lootWeighted.uasset
-   - struct_mBool.uasset
-   - struct_mClass.uasset
-   - struct_mFloat.uasset
-   - struct_mInt.uasset
-   - struct_mString.uasset
-   - struct_mVector.uasset
-   - struct_physSound.uasset
-   - struct_prop.uasset
-   - struct_propDynamic.uasset
-   - struct_save.uasset
-   - struct_settings.uasset
-   - struct_signalDataDynamic.uasset
-   - struct_signal_data.uasset
-   - struct_signal_spawn.uasset
-   - struct_sound.uasset
-   - struct_spaceObject.uasset
-   - struct_store.uasset
-   - struct_triggerSave.uasset
-   - struct_tv.uasset
-   - struct_weapon.uasset
-   - struct_weightedName.uasset
+ <summary>enums</summary>
+  <ul>
+  <li>enum_action</li>
+  <li>enum_char</li>
+  <li>enum_difficulty</li>
+  <li>enum_emailChars</li>
+  <li>enum_freq</li>
+  <li>enum_gamemode</li>
+  <li>enum_interactionActions</li>
+  <li>enum_kerfurCommand</li>
+  <li>enum_kerfurDripType</li>
+  <li>enum_notifyType</li>
+  <li>enum_objectType</li>
+  <li>enum_quality</li>
+  <li>enum_shopCats</li>
+  <li>enum_signalResponse</li>
+  <li>enum_spawnmenuCats</li>
+  <li>enum_tvStatus</li>
+   </ul>
+ </details>
+ <details>
+ <summary>interfaces</summary>
+  <li>int_coms</li>
+  <li>int_objects</li>
+  <li>int_player</li>
+  <li>int_save1</li>
+  <li>int_ttrigger</li>
+ </details>
+  <details>
+ <summary>structs (All unsafe except struct_food1, struct_save and what it uses)</summary>
+  <li>enum_playlist</li>
+  <li>struct_achievement</li>
+  <li>struct_byteimage</li>
+  <li>struct_characterEmailProfile</li>
+  <li>struct_characterResponse_v21</li>
+  <li>struct_crafting</li>
+  <li>struct_dangerProp</li>
+  <li>struct_email</li>
+  <li>struct_equipment</li>
+  <li>struct_equipmentWear</li>
+  <li>struct_event</li>
+  <li>struct_farmPlant</li>
+  <li>struct_food1</li>
+  <li>struct_help</li>
+  <li>struct_ignalEmailResponse</li>
+  <li>struct_kerfurDrip</li>
+  <li>struct_keybind</li>
+  <li>struct_loan</li>
+  <li>struct_lootWeighted</li>
+  <li>struct_mBool</li>
+  <li>struct_mClass</li>
+  <li>struct_mFloat</li>
+  <li>struct_mInt</li>
+  <li>struct_mString</li>
+  <li>struct_mVector</li>
+  <li>struct_physSound</li>
+  <li>struct_prop</li>
+  <li>struct_propDynamic</li>
+  <li>struct_save</li>
+  <li>struct_settings</li>
+  <li>struct_signalDataDynamic</li>
+  <li>struct_signal_data</li>
+  <li>struct_signal_spawn</li>
+  <li>struct_sound</li>
+  <li>struct_spaceObject</li>
+  <li>struct_store</li>
+  <li>struct_triggerSave</li>
+  <li>struct_tv</li>
+  <li>struct_weapon</li>
+  <li>struct_weightedName
+ </details>
+<li>GameInst</li>
+<li>lib</li>
+<li>mainGamemode</li>
+<li>mainPlayer</li>
+<li>physicsImpact</li>
+<li>save_main</li>
+<li>saveSlot</li>
+<li>struct_picturesDim</li>
+</details>
+<details><summary>materials</summary>
+ <details><summary>phys</summary>
+<li>bag</li>
+<li>bag_flammable</li>
+<li>ball</li>
+<li>balloon</li>
+<li>barrel</li>
+<li>batt</li>
+<li>body</li>
+<li>can</li>
+<li>concrete</li>
+<li>concrete1</li>
+<li>concrete_float</li>
+<li>concrete_massive</li>
+<li>concrete_massive_float</li>
+<li>concrete_shroom</li>
+<li>cup</li>
+<li>dirt</li>
+<li>drive</li>
+<li>flesh</li>
+<li>food</li>
+<li>glass</li>
+<li>gold</li>
+<li>gold_s</li>
+<li>grass</li>
+<li>grate</li>
+<li>gravel</li>
+<li>kerfusWheel</li>
+<li>metal</li>
+<li>metalHeavy</li>
+<li>metalPipe</li>
+<li>metalPipe1</li>
+<li>paper</li>
+<li>plastic</li>
+<li>rubber</li>
+<li>sball</li>
+<li>silent</li>
+<li>slide</li>
+<li>vehicle</li>
+<li>wood
+ </details>
+</details>
+<details><summary>objects</summary>
+ [WIP] 80 entries total
+</details>
+<details><summary>umg</summary>
+ <details><summary>UI</summary>
+  <li>umg_menu</li>
+  <li>umg_quicksave</li>
+  <li>umg_serverMinigame
+ </details>
+<li>umg_clipboard</li>
+<li>umg_console</li>
+<li>umg_coords</li>
+<li>umg_deathscreen</li>
+<li>umg_decoder</li>
+<li>umg_equipmentSlot</li>
+<li>umg_hints</li>
+<li>umg_hovertextNametag</li>
+<li>umg_inventory</li>
+<li>umg_inventorySlot</li>
+<li>umg_laptop</li>
+<li>umg_minimap</li>
+<li>umg_onlineRadio</li>
+<li>umg_paperDraw</li>
+<li>umg_passlock</li>
+<li>umg_printer</li>
+<li>umg_propInv</li>
+<li>umg_propInvInvSlot</li>
+<li>umg_propInvSlor</li>
+<li>umg_radarScreen</li>
+<li>umg_reactor</li>
+<li>umg_signalDownload</li>
+<li>umg_signalPlay</li>
+<li>umg_tvOffline</li>
+<li>umg_UI</li>
 </details>
